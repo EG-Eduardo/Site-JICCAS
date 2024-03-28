@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #d0f2e7;
+}
+
+main{
+    flex: 1 1 auto;
+    margin-top: 32px;
+}   
+
+footer{
+    padding: 30px;
+    font-size: 16px;
+    background-color: #ade0db;
+}
+
+.topo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 3vh;
+    background-color: #ebf2f2;
+}
+
+.principal {
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#textos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.textoNoticias {
+    text-align: center;
+    border: solid 2px black;
+    padding: 20px;
+    margin-top: 16px;
+    background-color: #d9dbdb;
+    width: 50vh;
+    font-size: 2vh;
+    border-radius: 20px;
+}
+
+.textoNoticias h2{
+    margin-bottom: 16px;
+}
+
+.vejaMais{
+    background-color:#d0f2e7;
+    margin-bottom: 5vh;
+    padding: 8px;
+}
+
+.vejaMais li{
+    font-size: 3vh;
+    display: inline;
+    margin: 64px; 
+}
+
+.vejaMais a{
+    border: solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.creditos{
+    font-size: 16px;
+    text-align: center;
+}
+
+.creditoTexto{
+    margin-bottom: 16px;
+}
+
+.mencoes p{
+    margin-bottom: 8px;
+}

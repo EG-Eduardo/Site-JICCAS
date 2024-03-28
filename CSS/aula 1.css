@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #d0f2e7;
+}
+
+main{
+    flex: 1 1 auto;
+    margin-top: 32px;
+}
+
+footer{
+    margin-top: 16px;
+    padding: 30px;
+    flex: 0 0 auto;
+    font-size: 16px;
+    background-color: #ade0db;
+}
+
+.topo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 3vh;
+    width: 100%;
+    background-color: #ebf2f2;
+    top: 10px;
+}
+
+.h1 {
+    margin-bottom: 8px;
+}
+
+#textoJogos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.texto {
+    width: 50vh;
+    text-align: center;
+    border: solid 2px black;
+    padding: 20px;
+    background-color: #d9dbdb;
+    justify-content: space-around;
+}
+
+.jogos {
+    text-align: center;
+    width: 30vh;
+}
+
+.destaques {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    padding: 4px;
+    background-color: #d9dbdb;
+    border: solid 2px black;
+border-radius: 10px;
+}
+
+.times {
+    margin-bottom: 16px;
+}
+
+.noticias{
+    background-color:#d0f2e7;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5vh;
+    padding: 8px;
+}
+
+.noticias li{
+    font-size: 3vh;
+    display: inline;
+    margin: 64px;
+}
+
+.noticias a{
+    border: solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+
+footer p{
+    margin-top: 32px;
+    padding: 5px;
+}
+
