@@ -24,23 +24,83 @@ header{
 main{
     width: 100%;
     height: 100vh;
-    background-color: brown;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #d0f2e7;
+}
+
+.navegacao{
+    background-color:#d0f2e7;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    padding: 8px;
+}
+
+.navegacao a:hover{
+background-color: rgb(185, 184, 184);
+}
+
+.navegacao li{
+    font-size: 3vh;
+    display: inline;
+    margin: 64px;
+}
+
+.navegacao a{
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
 }
 
 .tabela{
-    background-color: aqua;
+    background-color: #fffafa;
     text-align: center;
+    border-collapse: collapse;
+    width: 85%;
+    height: 50vh;
 }
 
-.tabela th, td{
-    border: solid 2px black;
+.tabela caption{
+    border: 1px solid black;
+    background-color: red;
+    color: white;
+}
+
+.tabela td, .tabela th{
+    border: 1px solid black;
+}
+
+#Almoco{
+    background-color: red;
+    color: white;
+}
+
+.Modalidade{
+    background-color: blue;
+    color: white;
 }
 
 footer{
-    width: 100%;
-    height: 10vh;
-    background-color: pink;
     margin-top: auto;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #ade0db;
+}
+
+.creditos{
+    font-size: 16px;
+    text-align: center;
+}
+
+.creditoTexto{
+    margin-bottom: 16px;
+}
+
+.mencoes p{
+    margin-bottom: 8px;
 }
