@@ -90,3 +90,8 @@ footer{
 .mencoes p{
     margin-bottom: 8px;
 }
+
+.mencoes a{
+    text-decoration: none;
+    color: red;
+}
